@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .canvas {
+            margin-left: 30%;
+            padding: 30px;
+            width: 500px;
+            height: 500px;
+            box-shadow: 0 0 15px black;
+        }
+        .outer-border-box {
+            background-color: rgb(90, 148, 224);
+            border: 3px solid red;
+        }
+        .inner-border-box {
+            padding: 20px;
+            background-color: rgb(90, 148, 224);
+            outline: 3px solid red;
+            outline-offset: -10px;
+        }
+        .rounded-border-box {
+            border: 5px solid rgb(51, 88, 255);
+            background-color: yellow;
+            border-radius: 15px;
+            margin-top: 10px;
+        }
+        .dotted-border-box {
+            background-color: rgb(97, 172, 97);
+            border: 15px dotted grey;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="canvas">
+        <div class="outer-border-box">
+            <div class="inner-border-box">
+                <h1>Hello World</h1>
+            </div>
+        </div>
+
+        <div class="rounded-border-box">
+            <h1>Hello World</h1>
+        </div>
+
+        <div class="dotted-border-box">
+            <h1>Hello World</h1>
+        </div>
+    </div>
+</body>
+</html>
